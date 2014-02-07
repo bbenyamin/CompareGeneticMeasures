@@ -1,0 +1,6 @@
+variant
+RAF
+RRBb
+RRBB
+K
+Lambda_S or h2L

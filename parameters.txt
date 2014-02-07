@@ -1,0 +1,16 @@
+param,nice,long
+RAF, \(RAF\),Risk allele frequency (risk allele = B).
+RRBb, \(RR_{Bb}\), Genotype relative risk of heterozygote Bb relative to homozygote bb.
+RRBB, \(RR_{BB}\), Genotype relative risk of homozygote BB relative to homozygote bb (default multiplicative \(RR_{BB} = RR_{Bb}^2\)).
+K, \(K\), Baseline population risk of disease.
+Lambda_S,\(\lambda_{s}\),Sibling relative risk: Increased risk of disease in siblings of those affected -  OR:
+h2L, \(h_{L}^2\), Heritability of liability: The proportion of variation in phenotypic liability attributed to additive genetic effects.
+h2Li (%), \(h_{L[i]}^2\), Heritability of liability attributable to the locus (equation 10).
+h2Liprop (%), \(h_{L[i]}^2/h_{L}^2\), Proportion of total heritability of liability attributable to the locus (equation 11).
+h2Lipropapprox (%), \(h_{L[i]approx}^2/h_{L}^2\), Proportion of total heritability of liability attributable to the locus estimated with the approximate equation.
+lambdasib, \(\lambda_{s[i]}\), Sibling relative risk attributed to the locus (equation 13).
+proploglambdasib (%), \(log(\lambda_{s[i]})/log(\lambda_{s})\),An expression for the proportion of sibling relative risk explained by the locus.
+proplambS2 (%), \(V_{Glog(RR[i]}/2log(\lambda_{s})\), An expression for proportion of familial risk attributable to the locus.
+AUCi, \(AUC_{i}\),Area under the receiver operator curve (AUC) attributable to the locus (equation 16).
+AUCprop (%), \([(AUC_{[i]} - 0.5)/(AUC_{M} - 0.5)]^2\), An expression for the proportion of the total AUC attributable to the locus (equation 17).
+PAR (%), \(PAR\), Population attributable risk (equation 19).
